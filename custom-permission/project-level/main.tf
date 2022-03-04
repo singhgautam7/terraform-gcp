@@ -4,9 +4,9 @@
 #
 
 resource "google_project_iam_custom_role" "my-custom-role" {
-  project = "{YOUR_PROJECT_ID}"
-  role_id     = "myCustomRole"
-  title       = "My Custom Role"
-  description = "Description of my custom role"
-  permissions = ["permission_1", "permission_2", "permission_3"]
+  project     = local.project
+  role_id     = local.role_id
+  title       = local.role_title
+  description = local.role_description
+  permissions = local.permissions
 }

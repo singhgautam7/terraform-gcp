@@ -4,13 +4,12 @@
  - Terraform >= 1.0
 
 ### Steps
-- From `main.tf` file change the value of:
-  - custom role name (currently named as "my-custom-role")
+- From `config.tf` file change the value of:
   - `project`
   - `role_id`
-  - `organization_id`
-  - `title`
-  - `description`
+  - `org_id`
+  - `role_title`
+  - `role_description`
   - `permissions`
 - Run the command `terraform init`
 - Run the command `terraform apply`

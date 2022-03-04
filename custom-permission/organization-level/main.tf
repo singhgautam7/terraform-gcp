@@ -4,9 +4,9 @@
 #
 
 resource "google_organization_iam_custom_role" "my-custom-role" {
-  org_id      = "{YOUR_ORGANIZATION_ID}"
-  role_id     = "myCustomRole"
-  title       = "My Custom Role"
-  description = "Description of my custom role"
-  permissions = ["permission_1", "permission_2", "permission_3"]
+  org_id      = local.org_id
+  role_id     = local.role_id
+  title       = local.role_title
+  description = local.role_description
+  permissions = local.permissions
 }
