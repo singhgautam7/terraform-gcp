@@ -1,4 +1,3 @@
-
 variable "permissions" {
   default = ["iam.roles.list", "iam.roles.create", "iam.roles.delete"]
   description = "List of permissions you need to assign to your custom role"
