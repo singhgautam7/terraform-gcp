@@ -1,9 +1,10 @@
-# Steps 
-#### Installs
+
+### Installs
  - GCloud SDK
  - JQ (for JSON queries)
  - Terraform >= 1.0
   
+### Steps 
 - From `main.tf` file change the value of:
   - custom role name (currently named as "my-custom-role")
   - `project`
