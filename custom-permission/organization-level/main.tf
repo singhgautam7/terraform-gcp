@@ -3,9 +3,6 @@
 # Doc https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_organization_iam_custom_role
 #
 
-##########################
-### Organizaiton Level ###
-##########################
 resource "google_organization_iam_custom_role" "my-custom-role" {
   org_id      = "{YOUR_ORGANIZATION_ID}"
   role_id     = "myCustomRole"
