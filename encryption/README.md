@@ -1,4 +1,7 @@
-#### Sample GCP Logging provisioning with Terraform 
+# UNDER CONSTRUCTION!
+# DO NOT USE FOR THE TIME BEING
+
+#### Sample GCP Decryption with Terraform 
 Here we are encrypting a .tfvars in `encrypt.sh` file and further decrypting it in `main.tf` file.
 This can be used to store the secrets in encrypted format.
 
@@ -6,7 +9,6 @@ This can be used to store the secrets in encrypted format.
 - Create key ring and key from your goolge cloud console and pass the values 
 
 #### Installs
-The Bootstrap script is currently written for common linux distributions. It requires the following tools to be installed:
  - GCloud SDK
  - JQ (for JSON queries)
  - Terraform >= 1.0
