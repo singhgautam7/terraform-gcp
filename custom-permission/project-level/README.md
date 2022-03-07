@@ -1,10 +1,11 @@
 
 ### Installs
  - GCloud SDK
- - JQ (for JSON queries)
  - Terraform >= 1.0
   
 ### Steps 
+- Login to gcloud using the command `gcloud auth login`
+- Set project using the command `gcloud set config project <your-project-id>`
 - From `config.tf` file change the value of:
   - `project`
   - `role_id`
